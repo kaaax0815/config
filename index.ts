@@ -1,5 +1,9 @@
 import { main } from "./config/release.config";
 
+import { npm } from "./config/releasenpm.config";
+
 const releaseMain = main;
 
-export { releaseMain};
+const releaseNPM = npm;
+
+export { releaseMain, releaseNPM };

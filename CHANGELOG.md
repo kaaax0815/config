@@ -1,3 +1,11 @@
+## [v1.1.0] - 2021-05-03
+
+[Release notes](https://github.com/kaaax0815/config/releases/tag/v1.1.0) · [Compare](https://github.com/kaaax0815/config/compare/v1.0.0...v1.1.0) · [Tag](https://github.com/kaaax0815/config/tree/v1.1.0) · Archive ([zip](https://github.com/kaaax0815/config/archive/v1.1.0.zip) · [tar.gz](https://github.com/kaaax0815/config/archive/v1.1.0.tar.gz))
+
+### New features
+
+- [`82ed29b`](https://github.com/kaaax0815/config/commit/82ed29b)  npm publish
+
 ## [v1.0.0] - 2021-05-03
 
 [Release notes](https://github.com/kaaax0815/config/releases/tag/v1.0.0) · [Tag](https://github.com/kaaax0815/config/tree/v1.0.0) · Archive ([zip](https://github.com/kaaax0815/config/archive/v1.0.0.zip) · [tar.gz](https://github.com/kaaax0815/config/archive/v1.0.0.tar.gz))

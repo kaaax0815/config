@@ -1,6 +1,6 @@
 {
-  "name": "@betahuhn/config",
-  "version": "1.1.0",
+  "name": "@kaaaxcreators/config",
+  "version": "1.0.0",
   "description": "Common configuration files for my projects",
   "files": [
     "dist"
@@ -14,20 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/betahuhn/config.git"
+    "url": "git+https://github.com/kaaaxcreators.de/config.git"
   },
   "keywords": [
     "MIT"
   ],
-  "author": "Maximilian Schiller <hello@mxis.ch>",
+  "author": "Bernd Storath <bernd@kaaaxcreators.de>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/betahuhn/config/issues"
-  },
-  "homepage": "https://github.com/betahuhn/config#readme",
   "devDependencies": {
     "@types/dateformat": "^3.0.1",
-    "@types/eslint": "^7.2.6",
     "@types/semantic-release": "^17.2.0",
     "typescript": "^4.1.3"
   },
@@ -35,7 +30,6 @@
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
     "@semantic-release/github": "^7.2.0",
-    "@semantic-release/npm": "^7.0.6",
     "dateformat": "^3.0.3",
     "semantic-release": "^17.3.1",
     "semantic-release-gitmoji": "^1.3.4"

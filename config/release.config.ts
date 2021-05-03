@@ -57,12 +57,6 @@ const options: Options = {
       },
     ],
     [
-      "@semantic-release/npm",
-      {
-        npmPublish: !!process.env.NPM_TOKEN,
-      },
-    ],
-    [
       "@semantic-release/git",
       {
         assets: ["CHANGELOG.md", "package.json", "package-lock.json"],
@@ -72,13 +66,7 @@ const options: Options = {
   ],
 };
 
-export const master: Options = {
+export const main: Options = {
   ...options,
-  branches: ["master"],
+  branches: ["main"],
 };
-export const production: Options = {
-  ...options,
-  branches: ["production"],
-};
-export const release = (branches: string | string[]) =>
-  ({ ...options, branches } as Options);

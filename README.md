@@ -45,6 +45,8 @@ Here are all the emojis which trigger a new release:
 - :alien: = Update code due to external API changes
 - :package: = Add/Update compiled files or package
 
+### [VSCode Integration](https://github.com/kaaax0815/gitmoji-vscode)
+
 ## 📄 License & Credits
 
 All Credits goes to [BetaHuhn](https://github.com/BetaHuhn). I only changed branch to main and removed eslint

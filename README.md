@@ -15,8 +15,15 @@ I use [Semantic Release](https://github.com/semantic-release/semantic-release) f
 Create a Semantic Release config file `release.config.js` in the project root. Branch is main
 
 ```js
-module.exports = require("@betahuhn/config").releaseMain;
+module.exports = require("@kaaaxcreators/config").releaseMain;
 ```
+This does not need a NPM Token, because it just publishes on Github
+
+```js
+module.exports = require("@kaaaxcreators/config").releaseNPM;
+```
+This does need a NPM Token, because it publishes on Github and NPM
+Example Workflow is in this Workflow
 
 Here are all the emojis which trigger a new release:
 

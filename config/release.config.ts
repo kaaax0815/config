@@ -2,6 +2,8 @@ import { Options } from "semantic-release";
 import { readFileSync } from "fs";
 import dateFormat from "dateformat";
 import { join } from "path";
+import releaseRules from './releaseRules';
+import { SemanticReleaseGitmojiOptions } from './typings/semantic-release-gitmoji';
 
 const template = readFileSync(
   join(__dirname, "helpers", "default-template.hbs")
@@ -15,25 +17,7 @@ const options: Options = {
     [
       "semantic-release-gitmoji",
       {
-        releaseRules: {
-          major: {
-            include: [":boom:"],
-          },
-          minor: {
-            include: [":sparkles:"],
-          },
-          patch: {
-            include: [
-              ":bug:",
-              ":ambulance:",
-              ":lock:",
-              ":recycle:",
-              ":lipstick:",
-              ":alien:",
-              ":package:",
-            ],
-          },
-        },
+        releaseRules: releaseRules,
         releaseNotes: {
           template,
           partials: { commitTemplate },
@@ -47,7 +31,7 @@ const options: Options = {
             source: "github.com",
           },
         },
-      },
+      } as SemanticReleaseGitmojiOptions,
     ],
     "@semantic-release/github",
     [

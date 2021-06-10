@@ -1,3 +1,7 @@
+## [v1.1.1] - 2021-06-10
+
+[Release notes](https://github.com/kaaax0815/config/releases/tag/v1.1.1) · [Compare](https://github.com/kaaax0815/config/compare/v1.1.0...v1.1.1) · [Tag](https://github.com/kaaax0815/config/tree/v1.1.1) · Archive ([zip](https://github.com/kaaax0815/config/archive/v1.1.1.zip) · [tar.gz](https://github.com/kaaax0815/config/archive/v1.1.1.tar.gz))
+
 ## [v1.1.0] - 2021-05-03
 
 [Release notes](https://github.com/kaaax0815/config/releases/tag/v1.1.0) · [Compare](https://github.com/kaaax0815/config/compare/v1.0.0...v1.1.0) · [Tag](https://github.com/kaaax0815/config/tree/v1.1.0) · Archive ([zip](https://github.com/kaaax0815/config/archive/v1.1.0.zip) · [tar.gz](https://github.com/kaaax0815/config/archive/v1.1.0.tar.gz))

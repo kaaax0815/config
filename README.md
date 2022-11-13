@@ -1,3 +1,4 @@
+Not maintained anymore
 # config
 
 ## 💻 Usage
